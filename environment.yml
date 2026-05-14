@@ -1,0 +1,22 @@
+name: venv_neurostrike
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.5
+  - torchvision
+  - pytorch-cuda=12.4
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pip
+  - pip:
+      - transformers
+      - accelerate
+      - datasets
+      - peft
+      - trl
